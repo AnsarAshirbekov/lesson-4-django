@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Темы для обсуждения{% endblock title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Темы для обсуждения</h1>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Введите название темы..." aria-label="Название темы" aria-describedby="search-button">
+                <button class="btn btn-primary" type="button" id="search-button">Поиск</button>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
